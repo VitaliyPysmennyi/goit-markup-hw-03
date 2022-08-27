@@ -9,11 +9,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			  rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+		    crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="styles/styles.css">
 	</head>
 	<body>
 		<!--Шапка-->
 		<header class="header">
+			<div class="container">
 			<nav class="main-nav">
                 <a class="nav-link links" href="./index.html">Web<span class="nav-logo">Studio</span></a>
 				<ul class="list">
@@ -28,7 +32,7 @@
 					</li>
 				</ul>
 			</nav>
-			<ul class="list">
+			<ul class="list header-contact">
 				<li class="item-contacts">
 					<a class="contacts links" href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
@@ -36,19 +40,23 @@
 					<a class="contacts links" href="tel:+380961111111">+38 096 111 11 11</a>
 				</li>
 			</ul>
+			</div>
 		</header>
 		<!--Основний контент-->
 		<main>
 			<section class="sections">
+			  <div class="container">
 				<h1 class="title">
 					Ефективні рішення для
 					<br />
 					вашого бізнесу
 				</h1>
 				<button class="button" type="button">Замовити послугу</button>
+			  </div>
 			</section>
 			<!--Особливасті-->
 			<section class="section-features">
+				<div class="container">
 				<h2 class="hidden-title">features</h2>
 				<ul class="list">
 					<li class="item-features">
@@ -68,9 +76,11 @@
 						<p class="subtitle-features">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
 					</li>
 				</ul>
+				</div>
 			</section>
 			<!--Робочий процес-->
 			<section class="section-work-process">
+				<div class="container">
 				<h2 class="subject">Чим ми займаємося</h2>
 				<ul class="list">
 					<li class="item-work-process">
@@ -83,9 +93,11 @@
 						<img class="picture-work-process" src="./images/img-2.jpg" alt="людина працює на планшеті" width="370" />
 					</li>
 				</ul>
+				</div>
 			</section>
 			<!--Наша команда-->
 			<section class="section-team">
+				<div class="container">
 				<h2 class="subject-team">Наша команда</h2>
 				<ul class="list">
 					<li class="item-team">
@@ -109,6 +121,7 @@
 						<p class="subtitle-team">UI Designer</p>
 					</li>
 				</ul>
+				<div>
 			</section>
 		</main>
 		<!--Підвал-->

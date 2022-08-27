@@ -18,10 +18,25 @@ body {
 font-family: 'Roboto',
 sans-serif;
     font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+    width: 1230;
+    align-items: center;
+}
+
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .links {
     text-decoration: none;
@@ -29,8 +44,13 @@ sans-serif;
 .hidden-title {
     opacity: 0;
 }
-
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ 
 /* Шапка */
+
 .nav-link {
     color: var(--blue-text-color);
     font-family: 'Raleway';
@@ -98,14 +118,12 @@ sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     }
 .subtitle-features {
     color: var(--secondary-text-color);
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 /* Робочий процес */
 .subject,
@@ -114,7 +132,6 @@ sans-serif;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 /* Наша команда */
 .section-team {
@@ -128,14 +145,12 @@ sans-serif;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .subtitle-team {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* Основний контент portfolio.html */
@@ -146,7 +161,6 @@ sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 0.03em;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -167,7 +181,6 @@ sans-serif;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
 }
 .portfolio-item {
     background-color: var(--primary-backg-color);
@@ -184,7 +197,6 @@ sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 .logo-footer {
     color: var(--white-text-color);
@@ -193,7 +205,6 @@ sans-serif;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 .link-footer:hover,
 .link-footer:focus {
